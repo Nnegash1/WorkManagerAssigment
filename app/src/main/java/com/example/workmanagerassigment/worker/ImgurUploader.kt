@@ -1,9 +1,9 @@
-package com.example.workmanagerhomework1.worker
+package com.example.workmanagerassigment.worker
 
 import android.net.Uri
-import com.example.workmanagerhomework1.data.remote.ImgurApiService
-import com.example.workmanagerhomework1.domains.models.UploadResponse
-import com.example.workmanagerhomework1.util.Resource
+import com.example.workmanagerassigment.remote.ImgurApiService
+import com.example.workmanagerassigment.models.UploadResponse
+import com.example.workmanagerassigment.util.Resource
 import java.io.File
 
 interface ImgurUploader {

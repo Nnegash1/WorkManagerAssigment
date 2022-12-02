@@ -1,7 +1,7 @@
-package com.example.workmanagerhomework1.data.remote
+package com.example.workmanagerassigment.remote
 
-import com.example.workmanagerhomework1.domains.models.UploadResponse
-import com.example.workmanagerhomework1.util.Constants
+import com.example.workmanagerassigment.models.UploadResponse
+import com.example.workmanagerassigment.util.Constants
 import okhttp3.MultipartBody
 import okhttp3.OkHttpClient
 import retrofit2.Response

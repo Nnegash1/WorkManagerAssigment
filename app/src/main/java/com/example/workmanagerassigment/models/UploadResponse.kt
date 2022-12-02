@@ -1,4 +1,4 @@
-package com.example.workmanagerhomework1.domains.models
+package com.example.workmanagerassigment.models
 
 data class UploadResponse(
     val `data`: Data,

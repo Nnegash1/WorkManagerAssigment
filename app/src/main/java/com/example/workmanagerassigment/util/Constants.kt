@@ -1,4 +1,4 @@
-package com.example.workmanagerhomework1.util
+package com.example.workmanagerassigment.util
 
 object Constants {
     const val FIB_NUM = "FIB_NUM"

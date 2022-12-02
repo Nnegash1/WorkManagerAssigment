@@ -1,4 +1,4 @@
-package com.example.workmanagerhomework1.worker
+package com.example.workmanagerassigment.worker
 
 
 import android.content.Context
@@ -6,7 +6,7 @@ import android.util.Log
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import androidx.work.workDataOf
-import com.example.workmanagerhomework1.util.Constants
+import com.example.workmanagerassigment.util.Constants
 import kotlinx.coroutines.delay
 import java.math.BigInteger
 

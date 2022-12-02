@@ -1,4 +1,4 @@
-package com.example.workmanagerhomework1
+package com.example.workmanagerassigment
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -36,7 +36,7 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.example.workmanagerhomework1.ui.theme.WorkManagerHomework1Theme
-import com.example.workmanagerhomework1.viewmodel.MainViewModel
+import com.example.workmanagerassigment.viewmodel.MainViewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

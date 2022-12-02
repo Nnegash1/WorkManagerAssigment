@@ -1,4 +1,4 @@
-package com.example.workmanagerhomework1.viewmodel
+package com.example.workmanagerassigment.viewmodel
 
 import android.content.Context
 import android.net.Uri
@@ -13,22 +13,18 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import androidx.work.workDataOf
-import com.example.workmanagerhomework1.util.Constants
-import com.example.workmanagerhomework1.worker.FibWorker
-import com.example.workmanagerhomework1.worker.ImgurWorker
+import com.example.workmanagerassigment.util.Constants
+import com.example.workmanagerassigment.worker.FibWorker
+import com.example.workmanagerassigment.worker.ImgurWorker
 
 class MainViewModel : ViewModel() {
 
     private val _workInfoData = MutableLiveData<WorkInfo>()
     val workInfoData get() = _workInfoData
-    lateinit var liveData: LiveData<WorkInfo>
+    private lateinit var liveData: LiveData<WorkInfo>
 
-    private val observer = object : Observer<WorkInfo> {
-        override fun onChanged(t: WorkInfo?) {
-            Log.e("TEST", t?.outputData.toString())
-        }
-
-    }
+    private val observer =
+        Observer<WorkInfo> { t -> Log.e("TEST", t?.outputData.toString()) }
 
     fun startWork(context: Context, selectImage: Uri) {
         val imageData = workDataOf(Constants.KEY_IMAGE_URI to selectImage.toString())

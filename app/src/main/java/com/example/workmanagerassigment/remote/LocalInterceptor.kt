@@ -1,6 +1,6 @@
-package com.example.workmanagerhomework1.data.remote
+package com.example.workmanagerassigment.remote
 
-import com.example.workmanagerhomework1.util.Constants
+import com.example.workmanagerassigment.util.Constants
 import okhttp3.Interceptor
 import okhttp3.Request
 import okhttp3.Response

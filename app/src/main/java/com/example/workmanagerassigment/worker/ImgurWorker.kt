@@ -1,4 +1,4 @@
-package com.example.workmanagerhomework1.worker
+package com.example.workmanagerassigment.worker
 
 import android.content.Context
 import android.content.Intent
@@ -6,10 +6,10 @@ import android.net.Uri
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import androidx.work.workDataOf
-import com.example.workmanagerhomework1.data.remote.ImgurApiService
-import com.example.workmanagerhomework1.domains.models.UploadResponse
-import com.example.workmanagerhomework1.util.Constants
-import com.example.workmanagerhomework1.util.Resource
+import com.example.workmanagerassigment.remote.ImgurApiService
+import com.example.workmanagerassigment.models.UploadResponse
+import com.example.workmanagerassigment.util.Constants
+import com.example.workmanagerassigment.util.Resource
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okhttp3.MediaType

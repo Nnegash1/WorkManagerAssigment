@@ -1,4 +1,4 @@
-package com.example.workmanagerhomework1.domains.models
+package com.example.workmanagerassigment.models
 
 data class Data(
     val account_id: Int,
